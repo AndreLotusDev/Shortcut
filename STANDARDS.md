@@ -8,7 +8,7 @@ Regras que todo codigo novo ou refatorado deve seguir neste projeto.
 
 ### Single Responsibility (SRP)
 - Cada classe tem uma unica razao para mudar.
-- Forms nao fazem logica de negocio. Form1 orquestra a UI, delega para helpers e services.
+- Forms nao fazem logica de negocio. MainForm orquestra a UI, delega para helpers e services.
 - Se um metodo faz mais de uma coisa (ex: valida + persiste + notifica), quebre em metodos privados ou extraia para outra classe.
 
 ### Open/Closed (OCP)

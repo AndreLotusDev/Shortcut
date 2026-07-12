@@ -39,7 +39,7 @@ Requer .NET 8 SDK e Windows.
 
 | Arquivo | Funcao |
 |---------|--------|
-| Form1.cs | Formulario principal, TabControl, WndProc para WM_HOTKEY |
+| MainForm.cs | Formulario principal, TabControl, WndProc para WM_HOTKEY |
 | EditShortcutForm.cs | Modal de criacao/edicao de atalhos |
 | HotkeyTextBox.cs | TextBox que captura combinacoes de teclas |
 | GlobalHotkey.cs | P/Invoke para RegisterHotKey/UnregisterHotKey |

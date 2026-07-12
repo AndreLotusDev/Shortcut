@@ -1,6 +1,6 @@
 namespace Shotcut;
 
-public partial class Form1 : Form
+public partial class MainForm : Form
 {
     private TabControl _tabControl = null!;
     private Button _btnAdd = null!;
@@ -16,7 +16,7 @@ public partial class Form1 : Form
     private bool _active;
     private int _nextId = 1;
 
-    public Form1()
+    public MainForm()
     {
         InitializeComponent();
         BuildUI();

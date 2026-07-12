@@ -14,7 +14,7 @@ Aplicação WinForms (.NET 8) que permite configurar atalhos de teclado globais 
 
 | Arquivo | Responsabilidade |
 |---------|-----------------|
-| `Form1.cs` | Formulário principal com TabControl para grupos, lista de atalhos por grupo, toggle ativar/desativar, WndProc para WM_HOTKEY |
+| `MainForm.cs` | Formulário principal com TabControl para grupos, lista de atalhos por grupo, toggle ativar/desativar, WndProc para WM_HOTKEY |
 | `EditShortcutForm.cs` | Modal para criar/editar um atalho (nome, hotkey, pasta) |
 | `HotkeyTextBox.cs` | TextBox customizado que captura combinações de teclas |
 | `GlobalHotkey.cs` | Wrapper P/Invoke para RegisterHotKey/UnregisterHotKey do user32.dll |
@@ -64,7 +64,7 @@ dotnet publish -c Release -o releases/vX.Y.Z
 ```
 Exemplo: `dotnet publish -c Release -o releases/v1.0.0`
 
-Incrementar a versão seguindo semver (major.minor.patch). Versão atual: **v1.0.0**.
+Incrementar a versão seguindo semver (major.minor.patch). Versão atual: **v1.1.0**.
 
 ## Padroes de Codigo
 Seguir as regras definidas em [STANDARDS.md](STANDARDS.md) (SOLID, arquitetura, convencoes WinForms).
