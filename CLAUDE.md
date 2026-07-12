@@ -66,5 +66,11 @@ Exemplo: `dotnet publish -c Release -o releases/v1.0.0`
 
 Incrementar a versão seguindo semver (major.minor.patch). Versão atual: **v1.0.0**.
 
+## Padroes de Codigo
+Seguir as regras definidas em [STANDARDS.md](STANDARDS.md) (SOLID, arquitetura, convencoes WinForms).
+
+## Manutencao do README
+Quando uma alteracao modificar funcionalidades, estrutura de arquivos, fluxo de uso ou requisitos do projeto de forma significativa, atualizar o [README.md](README.md) para refletir o estado atual. Ao escrever ou reescrever trechos do README, aplicar a skill `ai-writting` (modo `edit`) para remover padroes de escrita artificial.
+
 ## Idioma
 Interface em Português (PT-BR).
