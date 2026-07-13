@@ -1,4 +1,4 @@
-# Shotcut
+# Shortcut
 
 Aplicacao Windows para mover imagens selecionadas no Explorer para pastas especificas usando atalhos de teclado globais. Feita com WinForms e .NET 8.
 
