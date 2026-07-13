@@ -66,6 +66,14 @@ Exemplo: `dotnet publish -c Release -o releases/v1.0.0`
 
 Incrementar a versão seguindo semver (major.minor.patch). Versão atual: **v1.1.0**.
 
+## Documento Master de Features
+O arquivo [FEATURES.md](FEATURES.md) contem a especificacao funcional completa de todas as features do app: regras de negocio, edge cases, caminho feliz e resultado esperado.
+
+**REGRA: Toda feature nova ou atualizacao de feature existente OBRIGATORIAMENTE deve atualizar o FEATURES.md:**
+- Feature nova: adicionar secao completa com caminho feliz, resultado esperado, regras de negocio e edge cases.
+- Atualizacao de feature: documentar apenas o diferencial (o que mudou em relacao ao que ja esta documentado).
+- Ao escrever ou reescrever trechos do FEATURES.md, aplicar a skill `ai-writting` (modo `edit`) para remover padroes de escrita artificial.
+
 ## Padroes de Codigo
 Seguir as regras definidas em [STANDARDS.md](STANDARDS.md) (SOLID, arquitetura, convencoes WinForms).
 
